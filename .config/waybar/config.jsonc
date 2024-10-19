@@ -1,0 +1,13 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["network", "bluetooth", "battery", "cpu"],
+    "modules-center": ["clock"],
+    "modules-right": ["memory", "temperature", "volume", "backlight"],
+    "clock": {
+        "format": "{:%a %Y-%m-%d %H:%M:%S}"
+    },
+    "network": {
+        "interface": "your_network_interface"
+    }
+}
