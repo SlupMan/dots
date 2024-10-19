@@ -1,0 +1,8 @@
+/* Minimal Waybar Style */
+
+* {
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #1e1e1e;
+}
