@@ -1,14 +1,47 @@
-# ~/.config/alacritty/alacritty.yml
+# ~/.config/alacritty/alacritty.toml
 
-window:
-  opacity: 0.9
+[window]
+opacity = 0.9
+decorations = "none" # Options: full, none, transparent, buttonless
+dynamic_title = true
+startup_mode = "Windowed" # Options: Windowed, Maximized, Fullscreen
 
-font:
-  normal:
-    family: "DejaVu Sans Mono"
-    size: 12.0
+[font]
+normal = { family = "DejaVu Sans Mono", style = "Book" }
+bold = { family = "DejaVu Sans Mono", style = "Bold" }
+italic = { family = "DejaVu Sans Mono", style = "Italic" }
+size = 12.0
+offset = { x = 0.0, y = 0.0 }
 
-colors:
-  primary:
-    background: '0x1e1e1e'
-    foreground: '0xc0c0c0'
+[colors]
+# Default colors
+foreground = "#c0c0c0"
+background = "#1e1e1e"
+
+[colors.cursor]
+text = "#1e1e1e"
+cursor = "#c0c0c0"
+
+[colors.selection]
+text = "#c0c0c0"
+background = "#4d4d4d"
+
+[colors.normal]
+black   = "#1e1e1e"
+red     = "#d54e53"
+green   = "#b9ca4a"
+yellow  = "#e7c547"
+blue    = "#7aa6da"
+magenta = "#c397d8"
+cyan    = "#70c0b1"
+white   = "#ffffff"
+
+[colors.bright]
+black   = "#666666"
+red     = "#ff3334"
+green   = "#9ec400"
+yellow  = "#e7c547"
+blue    = "#7aa6da"
+magenta = "#b77ee0"
+cyan    = "#54ced6"
+white   = "#ffffff"
