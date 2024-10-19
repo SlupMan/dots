@@ -1,0 +1,7 @@
+[general]
+font=DejaVu Sans 12
+background-color=#1e1e1e
+text-color=#ffffff
+border-size=2
+border-color=#00ff99
+default-timeout=5000
