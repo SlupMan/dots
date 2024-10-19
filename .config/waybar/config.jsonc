@@ -8,6 +8,6 @@
         "format": "{:%a %Y-%m-%d %H:%M:%S}"
     },
     "network": {
-        "interface": "your_network_interface"
+        "interface": "wlan0"
     }
 }
